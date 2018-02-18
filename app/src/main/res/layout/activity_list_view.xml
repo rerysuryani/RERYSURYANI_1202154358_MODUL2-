@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.web.rery.rerysuryani_1202154358_modul2.list_view">
+
+
+    <ImageView
+        android:id="@+id/originalchicken"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="17dp"
+        app:srcCompat="@drawable/original" />
+
+    <TextView
+        android:id="@+id/original"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/originalchicken"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@+id/originalchicken"
+        android:layout_toRightOf="@+id/originalchicken"
+        android:fontFamily="serif"
+        android:onClick="showoriginal"
+        android:text="Original Chicken"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/sweetchicken"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/spicychicken"
+        android:layout_alignStart="@+id/spicychicken"
+        android:layout_alignTop="@+id/original"
+        android:layout_marginTop="135dp"
+        app:srcCompat="@drawable/sweet" />
+
+    <TextView
+        android:id="@+id/sweet"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/original"
+        android:layout_alignStart="@+id/original"
+        android:layout_alignTop="@+id/sweetchicken"
+        android:fontFamily="serif"
+        android:onClick="showsweet"
+        android:text="Sweet Chicken"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/spicychicken"
+        android:layout_width="150dp"
+        android:layout_height="350dp"
+        android:layout_alignTop="@+id/sweetchicken"
+        android:layout_marginTop="42dp"
+        android:layout_toLeftOf="@+id/original"
+        android:layout_toStartOf="@+id/original"
+        app:srcCompat="@drawable/spicy" />
+
+    <TextView
+        android:id="@+id/spicy"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/original"
+        android:layout_alignStart="@+id/original"
+        android:layout_below="@+id/sweetchicken"
+        android:layout_marginTop="45dp"
+        android:fontFamily="serif"
+        android:onClick="showspicy"
+        android:text="Spicy Chicken"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

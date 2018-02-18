@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.web.rery.rerysuryani_1202154358_modul2.jenispesanan">
+    
+    <Button
+        android:id="@+id/jenispesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin_top"
+        android:layout_marginBottom="@dimen/text_margin_bottom"
+        android:textSize="@dimen/intro_text_size"
+        android:text="@string/jenis_pesanan"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/jenispesanan">
+        
+        <RadioButton
+            android:id="@+id/dinein"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dine_in"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="63dp"
+            android:onClick="showdinein" />
+
+        <RadioButton
+            android:id="@+id/takeaway"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/take_away"
+            android:onClick="showtakeaway" />
+    </RadioGroup>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">RERY SURYANI_1202154358_MODUL2</string>
+    <string name="menu">Omo Chicken Resto</string>
+    <string name="jenis_pesanan">Jenis Pesanan :</string>
+    <string name="dine_in">Dine In</string>
+    <string name="take_away">Take Away</string>
+    <string name="dine_in_message">Dine In</string>
+    <string name="take_away_message">Take Away</string>
+    <string name="chosen">Chosen: "</string>
+    <string name="nothing_clicked">Nothing clicked. </string>
+    <string name="nomormeja_label">"Nomor meja : "</string>
+    <string-array name="labels_array">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+        <item>Meja 6</item>
+        <item>Meja 7</item>
+        <item>Meja 8</item>
+    </string-array>
+    <string name="spinner_work">Home</string>
+    <string name="hint_nomormeja">Pilih nomor meja</string>
+    <string name="show_button">Show</string>
+    <string name="nothing_entered">Nothing entered.</string>
+    <string name="nothing_selected">"onNothingSelected: "</string>
+    <string name="pilih_nomor_meja">Pilih Nomor Meja</string>
+    <string name="nothing_selectedd">onNothingSelected:</string>
+    <string name="date_button">Date</string>
+    <string name="time_button">Time</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+    <string name="time">Time:</string>
+    <string name="date">Date:</string>
+
+</resources>

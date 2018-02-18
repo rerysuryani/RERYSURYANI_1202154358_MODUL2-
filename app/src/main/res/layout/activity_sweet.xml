@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.web.rery.rerysuryani_1202154358_modul2.Sweet">
+
+    <ImageView
+        android:id="@+id/imagesweet"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/original"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/menuavailablesweet"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imagesweet"
+        android:layout_alignRight="@+id/imagesweet"
+        android:layout_below="@+id/imagesweet"
+        android:layout_marginTop="31dp"
+        android:text="Tersedia Sweet :"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <TextView
+        android:id="@+id/jenissweet"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/menuavailablesweet"
+        android:layout_marginTop="11dp"
+        android:text="Sunda, Minang, Korea"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/hargasweet"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/menuavailablesweet"
+        android:layout_alignStart="@+id/menuavailablesweet"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:text="Harga : 23.000"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp" />
+</RelativeLayout>
